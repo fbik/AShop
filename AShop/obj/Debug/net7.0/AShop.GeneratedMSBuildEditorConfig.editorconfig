@@ -16,8 +16,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /home/irina/RiderProjects/AShop/AShop
 build_property._RazorSourceGeneratorDebug = 
 
+[/home/irina/RiderProjects/AShop/AShop/Views/AShopCart/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQVNob3BDYXJ0L0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/irina/RiderProjects/AShop/AShop/Views/Cars/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2Fycy9MaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/irina/RiderProjects/AShop/AShop/Views/Home/Index2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleDIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/irina/RiderProjects/AShop/AShop/Views/Shared/AllCars.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0FsbENhcnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/irina/RiderProjects/AShop/AShop/Views/Shared/_Layout.cshtml]

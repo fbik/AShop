@@ -1,0 +1,5 @@
+{
+    "ConnectionString": {
+      "DefaultConnection": "Server=(localdb)\\MSSQLLocalDB;DataBase=Shop;Trusted_Connection=True;MultipleActiveResultSets=true;"
+    }
+}

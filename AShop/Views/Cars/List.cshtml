@@ -1,14 +1,14 @@
-@using AShop.Views.ViewModels
+@using AShop.Data.Models
+
+@Model CarsListVievModel
 
 <h1>Все автомобили</h1>
 <h3>@Model.currCategory</h3>
-    
+<div class="row mt-5 mb-2">
 @{
-    foreach (var car in Model.allCars)
+    foreach (Car car in Model.allCars)
     {
-        <div>
-            <h2>Модель: @car.name</h2>
-            <p>Цена: @car.price.ToString("c")</p>
-        </div>
+        @Html.Partial("AllCars", car);
     }
 }
+</div>
