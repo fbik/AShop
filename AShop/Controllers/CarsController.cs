@@ -5,7 +5,6 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace AShop.Controllers;
 
-
 public class CarsController : Controller
 {
     private readonly IAllCars _allCars;
@@ -50,7 +49,6 @@ public class CarsController : Controller
             currCategory = carrCategory
         };
         
-
         ViewBag.Title = "Страница с автомобилями";
        
         return View(carObj);
