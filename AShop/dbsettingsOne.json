@@ -1,5 +1,5 @@
 {
     "ConnectionString": {
-      "DefaultConnection": "Server=(localdb)\\MSSQLLocalDB;DataBase=Shop;Trusted_Connection=True;MultipleActiveResultSets=true;"
+      "DefaultConnection": "Server=localhost,3306\\MSSQLLocalDB;DataBase=mysql; User=Irina;Password=:.%L9pJPd=%C555l_w9#YpTEPcS97m7+;Trusted_Connection=True;MultipleActiveResultSets=true;"
     }
 }

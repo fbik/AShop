@@ -4,5 +4,5 @@ namespace AShop.Data.Interfaces;
 
 public interface ICarsCategory
 {
-    IEnumerable<Category> AllCategories { get; }
+    IEnumerable<Category> AllCategories { get; set; }
 }

@@ -15,7 +15,7 @@ public class AppDBContent : DbContext
    public DbSet<Category> Category { get; set; }
    public DbSet<AShopCartItemOne> AShopCartItem2 { get; set; }
 
-   public DbSet<Order> Orders { get; set; }
+   public DbSet<Order> Order2 { get; set; }
    
    public DbSet<OrderDetail> OrderDetails { get; set; }
 }

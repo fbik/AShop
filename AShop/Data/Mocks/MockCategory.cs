@@ -16,5 +16,6 @@ public class MockCategory : ICarsCategory
                     { categoryName = "Классические автомобили", desc = "Машины с двигателем внутреннего сгорания" }
             };
         }
+        set => throw new NotImplementedException();
     }
 }

@@ -28,6 +28,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleDIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[/home/irina/RiderProjects/AShop/AShop/Views/Order/Checkout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT3JkZXIvQ2hlY2tvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/irina/RiderProjects/AShop/AShop/Views/Order/Complete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT3JkZXIvQ29tcGxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/irina/RiderProjects/AShop/AShop/Views/Shared/AllCars.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0FsbENhcnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

@@ -29,8 +29,10 @@
     </ItemGroup>
 
     <ItemGroup>
+      <Folder Include="Data\Migrations" />
       <Folder Include="Views\AShopCart" />
       <Folder Include="Views\Home" />
+      <Folder Include="Views\Order" />
       <Folder Include="wwwroot\img" />
       <Folder Include="wwwroot\js" />
     </ItemGroup>
