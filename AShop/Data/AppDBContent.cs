@@ -6,9 +6,10 @@ namespace AShop.Data;
 
 public class AppDBContent : DbContext
 {
-   public AppDBContent(DbContextOptions<AppDBContent> options) : base(options)
+   static readonly string connectionString = "Server=localhost,3306\\MSSQLLocalDB;DataBase=mysql; User=Irina;Password=:.%L9pJPd=%C555l_w9#YpTEPcS97m7+;";
+   protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
    {
-      
+      optionsBuilder.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
    }
 
    public DbSet<Car> Car { get; set; }
