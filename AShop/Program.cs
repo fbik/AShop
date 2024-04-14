@@ -19,7 +19,7 @@ var _confstring = new ConfigurationBuilder().SetBasePath(hostEnv.ContentRootPath
 builder.Services.AddTransient<IAllCars, MocksCars>();
 builder.Services.AddTransient<ICarsCategory, MockCategory>(); 
 //builder.Services.AddTransient<IAllOrders, OrdersRepository>();
-//builder.Services.AddDbContext<AppDBContent>();
+builder.Services.AddDbContext<AppDBContent>();
 //builder.Services.AddMvc((option => option.EnableEndpointRouting = false));
 builder.Services.AddControllersWithViews(options => options.EnableEndpointRouting = false);
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
